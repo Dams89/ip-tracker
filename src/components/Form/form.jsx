@@ -6,6 +6,27 @@ const Form = () => {
         <input className='input' type='search' name='link' placeholder='Search for any IP address or domain'></input>
         <button className='submit-btn'></button>
       </form>
+        <div className='info-container'>
+        <div className='infos'>
+          <div>
+            <h2> IP ADDRESS </h2>
+            <span>  </span>
+          </div>
+          <div>
+            <h2> LOCATION </h2>
+            <span> </span>
+          </div>
+          <div>
+            <h2>TIMEZONE</h2>
+            <span>  </span>
+          </div>
+          <div>
+            <h2>ISP</h2>
+            <span> </span>
+          </div>
+        </div>
+      </div>
+
     )
     
 }
